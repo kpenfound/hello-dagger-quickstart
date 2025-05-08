@@ -8,7 +8,7 @@
     {
       "name": "github-issue",
       "source": "github.com/kpenfound/dag/github-issue",
-      "pin": "aacbdcb471c468cf15ecedf1004583b5334fd08c"
+      "pin": "c8f9ea4171e6e459e6f9033aa70f934052b9a475"
     },
     {
       "name": "workspace",
