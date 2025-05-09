@@ -22,7 +22,7 @@ jobs:
           dagger call develop-issue \
           --github-token GITHUB_TOKEN \
           --issue-id ${{ github.event.issue.number }} \
-          --repository https://github.com/${{ env.GITHUB_REPOSITORY }}
+          --repository https://github.com/${{ github.repository }}
         env:
           DAGGER_CLOUD_TOKEN: ${{ secrets.DAGGER_CLOUD_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
